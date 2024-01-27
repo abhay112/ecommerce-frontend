@@ -5,7 +5,7 @@ import { FaSearch, FaShoppingBag, FaSignInAlt, FaSignOutAlt, FaUser } from 'reac
 
 
 
-const user = { _id: "kjkj", role: "" };
+const user = { _id: "", role: "" };
 const Header = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
     const logoutHandler = async () => {
